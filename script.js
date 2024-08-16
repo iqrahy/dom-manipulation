@@ -32,3 +32,15 @@ createClass.style.backgroundColor = 'yellow';
 
 document.body.appendChild(createClass);
 console.log(createClass);
+
+
+// 3.
+// a. Removes an element with a specific ID from the DOM.
+
+const newCreation = document.createElement('h1');
+newCreation.innerHTML = 'JS';
+
+document.body.appendChild(newCreation);
+console.log(newCreation);
+
+newCreation.remove()
