@@ -19,7 +19,16 @@ items.forEach((a) => {
 const createdByJS = document.createElement('div');
 createdByJS.innerHTML = 'Hello World!';
 
-document.body.appendChild(createdByJS)
+document.body.appendChild(createdByJS);
 console.log(createdByJS);
 
 
+// b. add a class name "new-div" to the created `<div>` and set its background color to yellow.
+
+let createClass = document.createElement('div');
+createClass.innerHTML = 'lorem...'
+createClass.className = 'new-div';
+createClass.style.backgroundColor = 'yellow';
+
+document.body.appendChild(createClass);
+console.log(createClass);
