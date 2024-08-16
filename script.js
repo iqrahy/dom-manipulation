@@ -12,3 +12,14 @@ items.forEach((a) => {
   a.style.fontSize = "20px";
   console.log(a);
 });
+
+// 2.
+//   a. Creates a new `<div>` element with the text "Hello, World!" and appends it to the body of the document. 
+
+const createdByJS = document.createElement('div');
+createdByJS.innerHTML = 'Hello World!';
+
+document.body.appendChild(createdByJS)
+console.log(createdByJS);
+
+
